@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="a portfolio that consist of WordPress, Hosting, Database, Troubleshooting of Laptop and Desktop only.">
+    <title>Shine Son folio</title>
+
+
+
+       <link rel="stylesheet" type="text/css" href="contact.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" href="vibpic/logo 2.png">
+    <script src="js/jquery-3.5.1.min.js"></script>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="max-width">
+            <div class="logo">
+                <a href="#"><img src="vibpic/logo 1.png" alt="logo"></a>
+            </div>
+            <ul class="menu">
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#service">Expertise</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+
+            </ul>
+            <span class="menu-btn">
+                <i></i>
+                <i></i>
+                <i></i>
+              </span>
+
+    </nav>
+
+
+    <!--home section-->
+
+    <section class="home" id="home">
+
+        <div class="max-width">
+
+            <div class="home-content">
+                <div class="logo1">
+            </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--about me section-->
+
+    <section class="about" id="about">
+        <div class="max-width">
+            <h1 class="title">About Me</h1>
+            <div class="about-content">
+                <div class="column left">
+                    <img src="vibpic/Chyandmotor.jpg" alt="Chy Picture">
+                </div>
+
+                <div class="column right">
+                    <h2 class="text">Hi, I am Shine Son Montifalcon<strong> Website Technical Solution and also a Laptop/Desktop Technician.</strong></h2>
+                    <p>Passionate and motivated Junior Technical Solution and Senior Technician, delivering fast solution in troubleshoot and fixing such as <strong> WordPress, Hosting, Database </strong> removing <strong> Malware Viruses Website , Security layer</strong> and <strong>Laptop</strong> or <strong>Desktop</strong> problem. Knowledgeable also particular on <strong>Cloud Computing</strong> on <strong>Oracle, AWS,</strong> and <strong>DigitalOcean</strong>.
+                    <div class="more" id="#more">Interested to establish in a long-term career in the field of Web Technical Solution – particularly in web problem such as (Cloud Computing, Malware, Security , and Database). </div>
+                    <div class="read"> <a class="readmore" href="#more">Read More.</a></div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--service section-->
+    <section class="service" id="service">
+        <div class="max-width">
+            <h1 class="title">Expertise</h1>
+            <div class="service-content">
+                <div class="card">
+                    <div class="box">
+                        <img src="vibpic/html5-brands.svg">
+                        <div class="text">HTML5</div>
+                        <p>We also provide Advertising Aasistance just in case you need one as well as Web App Designs. </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="vibpic/css3-brands.svg">
+                        <div class="text">CCS3</div>
+                        <p>We also provide Advertising Aasistance just in case you need one as well as Web App Designs. </p>
+                    </div>
+                </div>
+                <div class ="card">
+                    <div class="box">
+                    <img src="vibpic/WordPress.png">
+                    <div class="text">WordPress</div>
+                    <p>We also provide Advertising Aasistance just in case you need one as well as Web App Designs.</p>
+                </div>
+                </div>
+                <div class ="card">
+                    <div class="box">
+                    <img src="vibpic/database.png">
+                    <div class="text">Database</div>
+                    <p>We also provide Advertising Aasistance just in case you need one as well as Web App Designs.</p>
+                </div>
+                </div>
+                <div class ="card">
+                    <div class="box">
+                    <img src="vibpic/malware.png">
+                    <div class="text">Malware</div>
+                    <p>We also provide Advertising Aasistance just in case you need one as well as Web App Designs.</p>
+                </div>
+                </div>
+                <div class ="card">
+                    <div class="box">
+                    <img src="vibpic/secure.png">
+                    <div class="text">Security Layer</div>
+                    <p>We also provide Advertising Aasistance just in case you need one as well as Web App Designs.</p>
+                </div>
+                </div>
+                <div class ="card">
+                    <div class="box">
+                    <img src="vibpic/laptop.png">
+                    <div class="text">Laptop/Deskstop</div>
+                    <p>We also provide Advertising Aasistance just in case you need one as well as Web App Designs.</p>
+                </div>
+                </div>
+                <div class ="card">
+                    <div class="box">
+                    <img src="vibpic/cloud-server.png">
+                    <div class="text">Cloud Server</div>
+                    <p>Cloud Server to ensure less provision and less maintenance, espec<span id="dots">...</span><span id="more1">ially when creating private Webhosting using Oracle, AWS, Digital Ocean, ETC. And also accessible on a public connection.
+                    This is one of my specialties to configure it on your own account and install it via Linux OS, CentOS, or Ubuntu OS.
+                        </span></p>
+                         <button onclick="myFunction()" id="myBtn">Read more...</button>
+                </div>
+                </div>
+                <div class ="card">
+                    <div class="box">
+                    <img src="vibpic/mail.png">
+                    <div class="text">Mail Server</div>
+                    <p> We provide a mail server installation and configuration on the DNS record domain to create your corporate mail.</p>
+                </div>
+                </div>
+                <script>
+                function myFunction() {
+    var dots = document.getElementById("dots");
+    var moreText = document.getElementById("more1");
+    var btnText = document.getElementById("myBtn");
+  
+    if (dots.style.display === "none") {
+      dots.style.display = "inline";
+      btnText.innerHTML = "Read more..."; 
+      moreText.style.display = "none";
+    } else {
+      dots.style.display = "none";
+      btnText.innerHTML = "Read less..."; 
+      moreText.style.display = "inline";
+    }
+  }
+                    </script>
+            </div>
+        </div>
+    </section>
+
+    <!--skills section-->
+    <section class="skills" id="skills">
+        <h1 class="title">Skills</h1>
+        <div class="max-width">
+            <div class="skills-content">
+                <div class="column left">
+                    <div class="text">Experience</div>
+                    <div class="text">2019-2022 - FSRS Technician Board Level</div>
+                    <p>Senior Trainor of board level</p>
+                    <p>Configuration of Laptop/Desktop</p>
+                    <p>●Repair Laptop/Desktop No Power</p>
+                    <p>●Repair Laptop/Desktop Display</p>
+                    <p>●Bios Reprogram</p>
+                    <p>Installation on Windows,Mac OS, Linux and Ubunto</p>
+                </div>
+                <div class="column left">
+                    <div class="text">Present Job</div>
+                    <div class="text"> Freelance as an IT Administrator</div>
+                    <p>Junior Technicial Solution</p>
+                    <p>●WordPress Backup or Website Backup</p>
+                    <p>●Removing Malware Viruses</p>
+                    <p>●Adding Security Layer on Website</p>
+                    <p>●Database backup to secure the business credential</p>
+                    <p>Customizing Hardcode Website</p>
+                </div>
+                </div>
+            </div>
+    </section>
+    <!--skills section-->
+    <section class="contact" id="contact">
+        <div class="max-width">
+            <h2 class="title">Contact Me</h2>
+            <div class="contact-content">
+                <div class="column left">
+                    <div class="text">Get in Touch</div>
+                    <p>For questions or general inquiries, submit the contact form below.</p>
+                    <div class="icon">
+                        <div class="rows">
+                            <img src="vibpic/address-book-solid.svg">
+                            <div class="info">
+                                <div class="head">Company Name</div>
+                                <div class="sub-title">None.</div>
+                            </div>
+                        </div>
+                        <div class="rows">
+                            <img src="vibpic/map-marked-alt-solid.svg">
+                            <div class="info">
+                                <div class="head">Address</div>
+                                <div class="sub-title">Sta. Mesa Manila.</div>
+                            </div>
+                        </div>
+                        <div class="rows">
+                            <a href="https://mail.google.com/mail/u/0/#inbox?compose=new" target="_blank">
+                            <img src="vibpic/envelope-open-text-solid.svg">
+                        </a>
+                            <div class="info">
+                                <div class="head">Email</div>
+                                <div class="sub-title">shine.montifalcon@gmail.com
+                                </div>
+                            </div>
+                        </div>
+                        <div class= "rows">
+                            <a href="https://www.facebook.com/escanor.heart" target="_blank">
+                                <img src="vibpic/fb icon.png" alt="An image">
+                              </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="contactform">
+                    <form action="mail_handler.php" method="post">
+                        <div class="message">Message Me</div>
+Full Name: <input type="text" name="name" required><br>
+Subject: <input type="text" name="subject" required><br>
+Email: <input type="text" name="email" required><br>
+Message:<br><textarea rows="5" name="message" cols="30" required></textarea><br>
+<input type="submit" name="submit" value="Submit">
+</form>
+</div>
+                </div>
+            </div>
+    </section>
+    <footer>
+        <p>Coded by <span><a href="https://www.facebook.com/shineson.08" target="_blank"> Chy</a></span> | &copy; 2022 All Right Reserved</p>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,32 @@
+.contactform {
+    font-size: 14px;
+    color: #faf4f4;
+    margin: 1rem 0;
+    font-weight: 100;
+    border-radius:5px;
+}
+
+.contactform input {
+    margin: 0.5em;
+    width: 100%;
+    border-radius: 1em;
+    padding: 0.2em;
+}
+.contactmsg {
+    color: #faf4f4;
+    font-weight: 600;
+    margin: 3rem 0;
+    font-size: 2rem;
+
+}
+.contactform textarea {
+    width: 100%;
+    border-radius: 0.5em;
+}
+
+.main-content {
+    margin: 0 auto;
+    max-width: 820px;
+    height: 64vh;
+    padding: 100em;
+}
